@@ -1,0 +1,171 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+.sun
+{
+    width: 50;
+    height: 50;
+}
+
+.picture
+{
+    width: 100%;
+    height: 500px;
+    filter: brightness(70%);
+}
+
+.container {
+    top: 0px;
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 83px;
+}
+
+.pictureslide
+{
+    margin-left: 0px;
+}
+
+
+#bgc
+{
+    background-color: linen;
+}
+.navc
+{
+    background-color: oldlace;
+}
+
+h2
+{
+    text-align: center;
+    color: dimgrey;
+}
+
+/*Annie*/
+h3
+{
+    text-align: center;
+    color: dimgrey;
+}
+
+.navbg
+{
+    background-color: floralwhite;
+}
+
+.btn
+{
+    background-color: darkgreen;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.main_img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p
+{
+  color: hsl(0, 0%, 47%);
+}
+
+.tc
+{
+    background-color: #c1d7c1;
+}
+
+img.background-image {
+  height: auto;
+  left: 0;
+  min-height: 100%;
+  min-width: 1024px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.theader
+{
+    font-weight: bold;
+}
+
+.link
+{
+    text-decoration: none;
+
+}
