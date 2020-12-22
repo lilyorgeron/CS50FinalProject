@@ -1,0 +1,80 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   History
+{% endblock %}
+
+{% block main %}
+
+{% for country in bookhist %}
+<table class= "table tc">
+    <thead class= "theader"><b>Books: {{ country }}</b></thead>
+    <thead>
+        <tr>
+            <th>Book Title</th>
+            <th>Author</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for key, value in bookhist[country].items() %}
+                <tr>
+                    <td>{{ key }}</td>
+                    <td>
+                        {% for author in value %}
+                            {{ author }}
+                        {% endfor %}
+                    </td>
+                </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+{% endfor %}
+
+{% for country in moviehist %}
+<table class="table tc">
+    <thead><b>Movies: {{ country }}</b></thead>
+    <thead>
+        <tr>
+            <th>Movie Title</th>
+            <th>Release Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for key, value in moviehist[country].items() %}
+                <tr>
+                    <td>{{ key }}</td>
+                    <td>
+                        {{ value }}
+                    </td>
+                </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+{% endfor %}
+
+{% for country in songhist %}
+<table class="table tc">
+    <thead><b>Top Tracks: {{ country }}</b></thead>
+    <thead>
+        <tr>
+            <th>Song Title</th>
+            <th>Artist</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for key, value in songhist[country].items() %}
+                <tr>
+                    <td>{{ key }}</td>
+                    <td>
+                        {{ value }}
+                    </td>
+                </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+{% endfor %}
+
+{% endblock %}
