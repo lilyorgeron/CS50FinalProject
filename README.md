@@ -1,5 +1,5 @@
 # CS50FinalProject
-For my CS50 final projects, my two groupmates and I created a website, called Horizons, that will show the user the top ten songs, books, and films from their chosen country.
+For our CS50 final projects, my two groupmates and I created a website, called Horizons, that shows the user the top ten songs, books, and films from their chosen country, allowing for a more empathetic and curious traveller.
 
 To compile, first download the source files contained in an overall folder “final”. Enter “cd final” and then “cd stuff” into the terminal window to open up the folders’ contents. To run the program, enter “flask run” into the terminal window to open up the webpage. (The APIs we used to create our search function are GoogleBooks, LastFM, and MovieAPI. Since we hardcoded the API keys into the program, you will not need to acquire API keys in order to compile use our project.)
 
